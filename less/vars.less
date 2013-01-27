@@ -1,0 +1,54 @@
+@import "grid";
+@import "elements";
+
+@background-color-dark: #191919;
+@background-color-red: #d01f3a;
+@links-color: #dcdcdc;
+
+@body-copy-color: #fff;
+
+@ws-unit: @gutter-width * 1px;
+
+@font-face {
+   font-family: 'Syncopate', sans-serif;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Raleway', sans-serif;
+}
+
+@title-font-family: 'Syncopate', Arial;
+@heading-font-family: 'Raleway', Arial;
+@body-font-family: 'Roboto', sans-serif;
+
+.visuallyhidden() {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.makeContainer() {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.cover() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    //background-size: 100% 100%;
+}
+
+

@@ -1,0 +1,24 @@
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+@font-face {
+  font-family: 'nevis';
+  src: url('../typography/nevis.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'nexa';
+  src: url('../typography/Nexa_Free_Bold-webfont.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}

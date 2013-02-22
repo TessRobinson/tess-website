@@ -44,17 +44,5 @@ body:after {
 }
 /* Everything under Desktop */
 @media only screen and (max-width: 1024px) {
-  body {
-    background-image: none;
-  }
-  #intro,
-  #what-we-believe {
-    background-image: url('../img/section-intro.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #000;
-  }
+  
 }
